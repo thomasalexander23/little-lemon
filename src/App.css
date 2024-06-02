@@ -1,48 +1,16 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+background-color: #282c34;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.logo{
+.logo, #root{
 display: grid;
 grid-template-columns:repeat(12,1fr);
-margin: 0 auto;
 gap: 10px;
-margin: 0 20px;
+
+}
+.logo , .main, .footer{
+  grid-column: span 12;
+  background-color: #fff;
 }
 .logo img{
   grid-column: span 4;
@@ -50,6 +18,9 @@ margin: 0 20px;
   height: 45px;
   align-self: center;
   justify-self: end;
+}
+.logo img:hover{
+  cursor: pointer;
 }
 .logo nav {
   grid-column: span 8;
@@ -59,51 +30,101 @@ margin: 0 20px;
   margin: 10px auto;
   padding: 10px;
 }
-.little{
-width: 100%;
-background-color: #495E57;
-display: grid;
-grid-template-columns:repeat(12,1fr);
-margin: 0 auto;
-gap: 10px;
-
-}
-.one{
-  grid-column:3/7;
+.logo li:hover{
   color: #F4CE14;
-  font-family:'Times New Roman', Times, serif;
-  
+  cursor: pointer;
 }
-.one h3{
-  color: #fff;
-  margin-top: -20px;
+.hero, .testimonials{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:10px;
+  background-color: #495E57;
+  height: 240px;
 }
-.one p{
+
+.hero-1{
+  grid-column: 3/span 3;
+}
+.hero img{
+  height: 270px;
+  width: 200px;
+  padding: 20px;
+  grid-column: 7/ span 3;
+  border: 0px solid black;
+  border-radius:40px;
+}
+h1{
+  color: #F4CE14;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero h3,p{
   color: #fff;
+  margin-top: -10px;
 }
 button{
-  grid-column: span 3/8;
-  width:150px;
-  padding: 10px;
   background-color: #F4CE14;
   color: #000;
   border: none;
-  border-radius: 10px;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 20px;
+}
+button:hover{
+background-color: #000;
+color: #F4CE14;
+cursor: pointer;
 }
 
-.two {
-  grid-column: 8/11;
-  
+.highlights, .about{
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:10px;
+  background-color:#fff;
+  padding-bottom: 40px;
 }
-.two img{
-  padding-top: 30px;
-  width: 210px;
-  height: 300px;
-  border-radius: 15%;
-  margin-left: 0px;
-  
+.highlights h1{
+  color: #000;
+  font-weight: bolder;
+  grid-column: 3/ span 4;
 }
-.main{
-  height: 600px;
-  background-color:beige;
+.highlights button{
+  grid-column: 9/ span 5;
+  height: fit-content;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.highlights .cards{
+  grid-column: 3/ span 8;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+}
+.cards div{
+  grid-column: span 3;
+  background-color: #EDEFEE;
+  width: 250px;
+  border-top-left-radius:40px;
+  border-top-right-radius:40px;
+  padding-bottom: 20px;
+}
+.cards img{
+  width:250px;
+  height: 167px;
+  border-top-left-radius:40px;
+  border-top-right-radius:40px;
+}
+.menu h3,h5,h4{
+  display: inline;
+   margin-left: 20px;
+}
+.menu h5{
+  color: red;
+  margin-left: 60px;
+}
+.cards p{
+  margin: 20px 20px;
+  color:#495E57;
 }
