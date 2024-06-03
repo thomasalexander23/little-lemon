@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Main(){
     return(
        <div className='main'>
@@ -6,7 +7,7 @@ function Main(){
                 <h1>Little Lemon</h1>
                 <h3>Chicago</h3>
                 <p>We are  a family-owned Mediterranean restaurant, that blends traditional recipes with a modern twist.</p>
-                <button>Reserve A Table</button>
+                <button><Link to="/Reservation">Reserve A Table</Link></button>
             </div>
 
         <img src={require('../Images/restauranfood.jpg')} alt="" />
@@ -14,7 +15,7 @@ function Main(){
 
         <section className='highlights'>
             <h1>This Week Specials!</h1>
-            <button>Online Menu</button>
+            <button><Link to='/Order'>Online Menu</Link></button>
             <section className='cards'>
                 <div>
                 <img src={require('../Images/Greek salad.jpg')} alt="" />

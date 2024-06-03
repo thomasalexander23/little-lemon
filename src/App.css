@@ -65,7 +65,7 @@ button{
   background-color: #F4CE14;
   color: #000;
   border: none;
-  font-size: larger;
+  font-size:medium;
   padding: 10px;
   border-radius: 20px;
 }
@@ -127,4 +127,46 @@ cursor: pointer;
 .cards p{
   margin: 20px 20px;
   color:#495E57;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #000;
+}
+a:visited{
+  color: #000;
+}
+
+a:hover{
+  color: #F4CE14;
+
+}
+a:active{
+  color: #F4CE14;
+}
+.abouts{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 10px;
+  margin: 20px;
+
+}
+.abouts img {
+  width: 300px;
+  height: 200px;
+  grid-column: span 3;
+}
+.abouts h1{
+  text-align: center;
+  color: #F4CE14;
+  grid-column: span 12;
+  background-color: #495E57;
+}
+.abouts img:hover{
+  border:5px solid #F4CE14;
+}
+button a:hover{
+  color: #F4CE14;
 }
