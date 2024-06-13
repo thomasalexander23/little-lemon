@@ -12,7 +12,7 @@ function Abouts() {
             ullamco est sit aliqua dolor do amet sint. Velit officia consequat
             duis enim velit mollit.</p>
             </div>
-            <div>
+            <div className='about2'>
         <section className="about-right-column">
           <section id="about-images">
             <div id="about-first-image">
