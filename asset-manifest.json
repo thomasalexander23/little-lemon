@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/little-lemon/static/css/main.bc67a112.css",
-    "main.js": "/little-lemon/static/js/main.7308b4d9.js",
+    "main.css": "/little-lemon/static/css/main.be89bd37.css",
+    "main.js": "/little-lemon/static/js/main.347c1056.js",
     "static/js/453.2ccde304.chunk.js": "/little-lemon/static/js/453.2ccde304.chunk.js",
     "static/media/restauranfood.jpg": "/little-lemon/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
     "static/media/Bruchetta.jpg": "/little-lemon/static/media/Bruchetta.cc98b69b023d1447eeba.jpg",
+    "static/media/Dominic_profile_2023-962x1024.webp": "/little-lemon/static/media/Dominic_profile_2023-962x1024.b901ab49b09a966128d8.webp",
     "static/media/Greek salad.jpg": "/little-lemon/static/media/Greek salad.25fc793faeb3d58ed9fb.jpg",
+    "static/media/lazy-margherita-pizza-2-2.webp": "/little-lemon/static/media/lazy-margherita-pizza-2-2.e488c7c29f22ae03030f.webp",
+    "static/media/Little Lemon Logo colors.png": "/little-lemon/static/media/Little Lemon Logo colors.2c859235d6c57bb54176.2c859235d6c57bb54176.png",
+    "static/media/Machali Jameson - Headshot (2).jpg": "/little-lemon/static/media/Machali Jameson - Headshot (2).80ce7d1183e336c1cdb6.jpg",
     "static/media/Logo.jpg": "/little-lemon/static/media/Logo.e68246686f716ff6e5d8.jpg",
+    "static/media/photo-gallery-img-02-circle.jpg": "/little-lemon/static/media/photo-gallery-img-02-circle.fdd70b79387a41304b75.jpg",
     "index.html": "/little-lemon/index.html",
-    "main.bc67a112.css.map": "/little-lemon/static/css/main.bc67a112.css.map",
-    "main.7308b4d9.js.map": "/little-lemon/static/js/main.7308b4d9.js.map",
+    "main.be89bd37.css.map": "/little-lemon/static/css/main.be89bd37.css.map",
+    "main.347c1056.js.map": "/little-lemon/static/js/main.347c1056.js.map",
     "453.2ccde304.chunk.js.map": "/little-lemon/static/js/453.2ccde304.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc67a112.css",
-    "static/js/main.7308b4d9.js"
+    "static/css/main.be89bd37.css",
+    "static/js/main.347c1056.js"
   ]
 }
