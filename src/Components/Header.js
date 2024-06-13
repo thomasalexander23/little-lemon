@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 function Head(){
     return(
         <div className='logo'>
-         <img src={require('../Images/Logo.jpg')} alt='images'/>
+          <div>
+         <Link to='/Home'><img src={require('../Images/Logo.jpg')} alt='images' /></Link>
+         </div>
          <nav>
           <ul>
             <li><Link to='/Home'>Home</Link></li>

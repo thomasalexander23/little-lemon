@@ -1,0 +1,38 @@
+/* src/Confirmation.css */
+
+.confirmation-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 70px 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #495E57;
+    text-align: left;
+    grid-column: span 12;
+  }
+  
+  .confirmation-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-container p {
+    margin: 20px 0;
+  }
+  
+  .confirmation-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #F4CE14;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirmation-container button:hover {
+    background-color: black;
+    color: #F4CE14;
+  }
+  .confirmation-container strong {
+    color: #F4CE14;
+  }

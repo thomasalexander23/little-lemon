@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect} from 'react';
-function Main(){
+import { useState } from 'react';
+function Online(){
     const day = new Date();
     const kene = day.getDay();
     const time = day.getFullYear();
@@ -28,25 +28,10 @@ function Main(){
         kenes = "Sunday"
     }
     const [date,setdate]=useState(`${kenes}`);
-    useEffect(()=>{
-        console.log('refresh')
-    });
     return(
-       <div className='main'>
-        <section className='hero'>
-            <div className='hero-1'>
-                <h1>Little Lemon</h1>
-                <h3>Chicago</h3>
-                <p>We are  a family-owned Mediterranean restaurant, that blends traditional recipes with a modern twist.</p>
-                <button><Link to="/Reservation">Reserve A Table</Link></button>
-            </div>
-
-        <img src={require('../Images/restauranfood.jpg')} alt="" />
-        </section>
-
+      <div className='online'>
         <section className='highlights'>
             <h1>This Week Specials For {date}/{month}/{time}</h1>
-            <button><Link to='/Order'>Online Menu</Link></button>
             <section className='cards'>
                 <div>
                 <img src={require('../Images/Greek salad.jpg')} alt="" />
@@ -82,39 +67,8 @@ function Main(){
             </section>
         </section>
 
-        <section className='testimonials'>
-            <div>
-              <h1>Testimonials</h1>
-            </div>
-
-           <div className='profile'>
-               <div>
-                  <img src={require('../Images/Dominic_profile_2023-962x1024.webp')}/>
-                  <h3>Sarah Thompson</h3>
-                  <span>★★★★★</span><br /><br />
-                  <p>Great food and lovely very helpful staff, would highly recommend. Excellent experience all around, they maintain cleanliness to a very high standard.</p>
-               </div>
-
-               <div>
-               <img src={require('../Images/photo-gallery-img-02-circle.jpg')}/>
-                  <h3>David Brown</h3>
-                  <span>★★★★★</span><br /><br />
-                  <p>Little Lemon Restaurant is a gem! The lemon herb steak was perfectly cooked and full of flavor. The staff made the whole experience even better with their friendly service.</p>
-
-               </div>
-
-               <div>
-               <img src={require('../Images/Machali Jameson - Headshot (2).jpg')}/>
-                  <h3>Michael Johnson</h3>
-                  <span>★★★★★</span><br /><br />
-                  <p>Great food and lovely very helpful staff, would highly recommend. Excellent experience all around, they maintain cleanliness to a very high standard.</p>
-
-               </div>
-            </div>
-        </section>
-
        </div>
     )
 }
-export default Main;
+export default Online;
 
