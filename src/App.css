@@ -403,7 +403,7 @@ padding:10px;
 }
 .highlights .cards{
   grid-column: 1/12;
-  margin-left:18px;
+  margin: 0px
 }
 .cards div{
  max-width: 120px;
