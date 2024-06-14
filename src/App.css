@@ -371,11 +371,11 @@ margin:5px 116px;
   grid-column: span 12;
 }
 .logo nav ul{
-  padding: 0px 20px;
+  padding: 0px 0px;
   margin-top: -20px;
 }
 .logo nav ul li{
-  margin: 0px 7px;
+  margin: 0px 5px;
   padding: 0px;
   font-size: small;
 }
