@@ -365,17 +365,19 @@ margin-left: -20px;
       grid-column: span 12;
   }
 .logo img {
-margin:5px 0 0 30px;
+margin:5px 116px;
 }
 .logo nav {
   grid-column: span 12;
 }
 .logo nav ul{
-  padding: 0px 5px;
+  padding: 0px 20px;
+  margin-top: -20px;
 }
 .logo nav ul li{
-  margin: 0px 4px;
+  margin: 0px 7px;
   padding: 0px;
+  font-size: small;
 }
 .hero-1{
   grid-column: 2/9;
@@ -383,6 +385,9 @@ margin:5px 0 0 30px;
 }
 .hero-1 button{
   max-width: max-content;
+}
+.hero{
+  height:200px;
 }
 .hero img{
 grid-column:9/ span 5 ;
@@ -392,9 +397,13 @@ padding: 0px;
 max-width: 150px;
 max-height: 80%;
 }
-.hero h3,p,button{
+.hero p,button{
 margin:15px 0px;
-padding:10px;
+padding:5px;
+}
+.hero-1 h1{
+  margin: 5px 0px 0px 0px;
+  padding: 0;
 }
 .highlights h1{
   grid-column: span 12;
@@ -402,21 +411,35 @@ padding:10px;
   text-align: center;
 }
 .highlights .cards{
-  grid-column: 1/12;
-  margin: 0px
+  grid-column: 1/13;
+  margin: 0px auto;
+}
+.cards{
+  height: 300px;
 }
 .cards div{
  max-width: 120px;
  max-height: fit-content;
 }
+.highlights button{
+  margin: 0px;
+  max-width: fit-content;
+  padding: 5px;
+}
 .cards img{
   max-width:120px;
   height: 90px;
 }
-.cards h3,h5,p,h4{
+.cards h3,h5,p{
   font-size:x-small;
   padding: 0px 2px;
   margin: 0px;
+  max-width: fit-content;
+}
+.cards h4{
+font-size: xx-small;
+margin: 10px 5px;
+padding: 0;
 }
 .cards div p{
   padding: 0px;
@@ -431,10 +454,18 @@ padding:10px;
   gap: 10px;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 20px;
 }
 .profile div{
   max-width: 110px;
-  height: 90%;
+  height: 100%;
+  padding: 0px;
+}
+.profile div:hover{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
 }
 .profile div img{
   max-height: 130px;
@@ -463,6 +494,7 @@ padding:10px;
   padding: 0px;
   margin: 0px;
 }
+
 #about-images{
   max-width: 200px;
 }
@@ -472,9 +504,9 @@ padding:10px;
   margin: 0px;
 }
 .about1 h2,h4,p{
-margin: 20px 10px;
+margin: 40px 0px 0px 30px;
 padding: 0px;
-font-size: smaller;
+font-size: x-small;
 }
 .footer {
   margin: 0px;
@@ -484,7 +516,6 @@ font-size: smaller;
   grid-column: 1;
   margin: 10px;
   height: fit-content;
-  
 }
 .footer-logo img{
   max-width: 60px;
