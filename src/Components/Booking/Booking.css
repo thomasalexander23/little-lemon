@@ -60,3 +60,27 @@
     background-color: #F4CE14;
     text-align: center;
   }
+@media only screen and (max-width: 620px) {
+.booking-container{
+  width: 400px;
+  height: fit-content;
+  padding: 60px 0px;
+}
+.booking-container h2{
+  max-width: 200px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.booking-container .booking-form {
+  width: 350px;
+  padding: 10px;
+  margin: auto;
+}
+
+.booking-form input,select,textarea{
+  max-width: fit-content;
+}
+
+
+}

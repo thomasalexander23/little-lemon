@@ -373,6 +373,7 @@ margin:5px 116px;
 .logo nav ul{
   padding: 0px 0px;
   margin-top: -20px;
+  margin-left: 5px;
 }
 .logo nav ul li{
   margin: 0px 5px;
@@ -381,7 +382,7 @@ margin:5px 116px;
 }
 .hero-1{
   grid-column: 2/9;
-  max-width: 200px;
+  max-width: 220px;
 }
 .hero-1 button{
   max-width: max-content;
@@ -405,6 +406,14 @@ padding:5px;
   margin: 5px 0px 0px 0px;
   padding: 0;
 }
+.highlights{
+  max-height: fit-content;
+  margin-bottom: 50px;
+}
+.highlights p{
+  font-size: small;
+}
+
 .highlights h1{
   grid-column: span 12;
   font-size: medium;
@@ -433,7 +442,7 @@ padding:5px;
 .cards h3,h5,p{
   font-size:x-small;
   padding: 0px 2px;
-  margin: 0px;
+  margin: 15px 0px;
   max-width: fit-content;
 }
 .cards h4{
@@ -442,8 +451,9 @@ margin: 10px 5px;
 padding: 0;
 }
 .cards div p{
+  font-size: 90%;
   padding: 0px;
-  margin: 0px 3px;
+  margin: 10px 4px;
 }
 
 .highlights button{
@@ -544,7 +554,7 @@ font-size: x-small;
   width: 100px;
 }
 .footer svg,a{
- width: 10px;
+ width: 30px;
  margin-right: 0px;
  text-align:none;
 }

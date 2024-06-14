@@ -36,3 +36,19 @@
   .confirmation-container strong {
     color: #F4CE14;
   }
+  @media only screen and (max-width: 620px){
+    .confirmation-container {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 70px 40px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #495E57;
+      text-align: left;
+      grid-column: span 12;
+      margin-bottom: 100px;
+    }
+  .confirmation-container h2,p,button{
+    font-size: medium;
+  }
+  }

@@ -3,6 +3,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './Confirmation.css';
 import Head from '../Header';
+import Footer from '../Footer';
 
 const Confirmation = () => {
   const location = useLocation();
@@ -28,6 +29,7 @@ const Confirmation = () => {
       <p><strong>Special Requests</strong> {bookingDetails.specialRequests}</p>
       <button onClick={() => navigate('/Reservation')}>Make Another Booking</button>
     </div>
+    <Footer/>
     </>
   );
 };
